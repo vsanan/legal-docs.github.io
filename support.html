@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Technical support — get help, troubleshoot issues, and contact us.">
+    <title>Technical Support</title>
+    <style>
+        :root {
+            --bg: #f8f9fb;
+            --surface: #ffffff;
+            --text: #1a1d21;
+            --text-muted: #5c6370;
+            --accent: #2563eb;
+            --accent-soft: rgba(37, 99, 235, 0.08);
+            --border: #e8eaef;
+            --radius: 12px;
+            --shadow: 0 1px 3px rgba(15, 23, 42, 0.06), 0 8px 24px rgba(15, 23, 42, 0.04);
+            --font: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: var(--font);
+            font-size: 16px;
+            line-height: 1.65;
+            color: var(--text);
+            background: var(--bg);
+            min-height: 100vh;
+        }
+
+        .wrap {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 2rem 1.25rem 4rem;
+        }
+
+        header.hero {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding: 2rem 1.5rem;
+            background: var(--surface);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+        }
+
+        .hero h1 {
+            margin: 0 0 0.5rem;
+            font-size: 1.75rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        .hero .sub {
+            margin: 0;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        article.doc {
+            background: var(--surface);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+            padding: 1.75rem 1.5rem 2rem;
+            margin-bottom: 2rem;
+        }
+
+        @media (min-width: 640px) {
+            article.doc {
+                padding: 2rem 2.25rem 2.5rem;
+            }
+        }
+
+        .doc h2 {
+            margin: 2rem 0 0.75rem;
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--text);
+            letter-spacing: -0.01em;
+            padding-top: 0.5rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .doc h2:first-of-type {
+            margin-top: 0;
+            padding-top: 0;
+            border-top: none;
+        }
+
+        .doc p, .doc li {
+            color: var(--text-muted);
+            margin: 0.65rem 0;
+        }
+
+        .doc ul {
+            margin: 0.5rem 0 0.75rem;
+            padding-left: 1.25rem;
+        }
+
+        .doc li {
+            margin: 0.4rem 0;
+        }
+
+        .doc strong {
+            color: var(--text);
+            font-weight: 600;
+        }
+
+        .doc a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .doc a:hover {
+            text-decoration: underline;
+        }
+
+        .toc {
+            background: var(--accent-soft);
+            border-radius: 8px;
+            padding: 1rem 1.15rem;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        .toc-title {
+            margin: 0 0 0.6rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--accent);
+        }
+
+        .toc ul {
+            margin: 0;
+            padding-left: 1.1rem;
+        }
+
+        .toc a {
+            color: var(--text-muted);
+            text-decoration: none;
+        }
+
+        .toc a:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+
+        footer.site {
+            text-align: center;
+            font-size: 0.8125rem;
+            color: var(--text-muted);
+        }
+
+        footer.site a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        footer.site a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <header class="hero">
+            <h1>Technical Support</h1>
+            <p class="sub">Last updated: March 31, 2026</p>
+        </header>
+
+        <article class="doc">
+            <p style="margin-top:0;color:var(--text-muted);font-size:0.95rem;">This page explains how to get help with our application, try common fixes, and reach us when you need assistance.</p>
+
+            <nav class="toc" aria-label="Table of contents">
+                <p class="toc-title">Contents</p>
+                <ul>
+                    <li><a href="#sec-1">1. How to get help</a></li>
+                    <li><a href="#sec-2">2. Quick troubleshooting</a></li>
+                    <li><a href="#sec-3">3. Compatibility and updates</a></li>
+                    <li><a href="#sec-4">4. Contact support</a></li>
+                    <li><a href="#sec-5">5. Reporting a problem</a></li>
+                    <li><a href="#sec-6">6. Response times</a></li>
+                </ul>
+            </nav>
+
+            <h2 id="sec-1">1. How to get help</h2>
+            <p>Support is provided for the current version of the application distributed through official app stores or our website. For the fastest answers, check the quick troubleshooting section below, then email <a href="mailto:jyanan520@gmail.com">jyanan520@gmail.com</a> or use the contact options published in the application or on our website.</p>
+
+            <h2 id="sec-2">2. Quick troubleshooting</h2>
+            <p>Many issues can be resolved with these steps:</p>
+            <ul>
+                <li><strong>Restart the application</strong> — fully close it and open it again.</li>
+                <li><strong>Restart your device</strong> — clears temporary issues with memory or network.</li>
+                <li><strong>Check your connection</strong> — switch between Wi‑Fi and cellular data if features require internet access.</li>
+                <li><strong>Update the application</strong> — install the latest version from your app store.</li>
+                <li><strong>Update your system</strong> — ensure your operating system is on a supported version.</li>
+                <li><strong>Check permissions</strong> — in system settings, confirm the app has permission for camera, microphone, notifications, or other features you use.</li>
+                <li><strong>Free storage space</strong> — low disk space can cause crashes or failed downloads.</li>
+            </ul>
+            <p>If the problem continues, contact us using the details in the next sections and include the information listed under “Reporting a problem.”</p>
+
+            <h2 id="sec-3">3. Compatibility and updates</h2>
+            <p>We aim to support recent versions of major mobile and desktop platforms. Minimum requirements and supported versions are shown in the app store listing or on our website when applicable. Older devices or operating systems may not receive all features or fixes.</p>
+            <p>Security and stability improvements are delivered through app updates. We recommend enabling automatic updates when possible.</p>
+
+            <h2 id="sec-4">4. Contact support</h2>
+            <p>For account issues, billing questions (if applicable), or technical help, you can reach us at <a href="mailto:jyanan520@gmail.com">jyanan520@gmail.com</a>. You may also use in-app feedback, a support form, or other contact information provided inside the application or on our website.</p>
+            <p>We cannot assist with requests sent only through unofficial channels or third-party marketplaces if we do not list them as supported.</p>
+
+            <h2 id="sec-5">5. Reporting a problem</h2>
+            <p>To help us investigate, please include as much of the following as you can:</p>
+            <ul>
+                <li>What you were trying to do and what happened instead.</li>
+                <li>Whether the issue happens every time or only sometimes.</li>
+                <li>Device model and operating system version.</li>
+                <li>Application version (usually found in settings or the app store).</li>
+                <li>Screenshots or screen recordings, if they help illustrate the issue.</li>
+            </ul>
+            <p>Do not send passwords, full payment card numbers, or other highly sensitive data unless we specifically ask for them through a secure process.</p>
+
+            <h2 id="sec-6">6. Response times</h2>
+            <p>We review messages as soon as we can. Response times vary by volume and complexity. Urgent safety or security matters are prioritized. If you do not hear back within a reasonable period, verify that your message was sent to <a href="mailto:jyanan520@gmail.com">jyanan520@gmail.com</a> or another correct address or channel listed in the application or on our website.</p>
+        </article>
+
+        <footer class="site">
+            <p><a href="mailto:jyanan520@gmail.com">jyanan520@gmail.com</a> · <a href="privacy.html">Privacy Policy</a> · © 2026 Chen Lian. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
